@@ -1,0 +1,52 @@
+body {
+  background: #4C5454;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto";
+}
+
+.quote-box {
+  background: #ffffff;
+  width: 450px;
+  padding: 25px 25px;
+  display: inline-block;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+img {
+  width: 35px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+p {
+  width: 90%;
+  margin: 15px auto;
+}
+
+button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  display: block;
+}
+.btn {
+  margin: 45px auto 0 auto;
+  background: #1EA896;
+}
+
+.twitter {
+  background: #fff;
+  float: left;
+}
